@@ -1,0 +1,18 @@
+{
+  "name": "firebase-electron-mjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "electron .",
+    "start-mjs": "electron ./main.mjs",
+    "start-js": "electron ./main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^30.4.0",
+    "firebase-electron": "^1.0.1"
+  }
+}
